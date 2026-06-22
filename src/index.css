@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap');
 
 :root {
-  --bg-primary: #050505;
-  --bg-secondary: #111111;
+  --bg-primary: #000000;
+  --bg-secondary: #0a0a0a;
   --text-primary: #ffffff;
-  --text-secondary: #a0a0a0;
-  --accent-1: #00f2fe;
-  --accent-2: #4facfe;
-  --accent-3: #f093fb;
-  --accent-4: #f5576c;
+  --text-secondary: #cccccc;
+  --accent-1: #00ff87;
+  --accent-2: #00b359;
+  --accent-3: #39ff14;
+  --accent-4: #008000;
   
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-border: rgba(255, 255, 255, 0.05);
@@ -27,8 +27,8 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   background-image: 
-    radial-gradient(circle at 15% 50%, rgba(79, 172, 254, 0.15), transparent 25%),
-    radial-gradient(circle at 85% 30%, rgba(245, 87, 108, 0.15), transparent 25%);
+    radial-gradient(circle at 15% 50%, rgba(0, 255, 135, 0.15), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(57, 255, 20, 0.15), transparent 25%);
   background-attachment: fixed;
 }
 
@@ -77,9 +77,9 @@ ul {
 }
 
 @keyframes pulse-glow {
-  0% { box-shadow: 0 0 0 0 rgba(79, 172, 254, 0.4); }
-  70% { box-shadow: 0 0 20px 15px rgba(79, 172, 254, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(79, 172, 254, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(0, 255, 135, 0.4); }
+  70% { box-shadow: 0 0 20px 15px rgba(0, 255, 135, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 255, 135, 0); }
 }
 
 .float-anim {
@@ -205,12 +205,12 @@ header.scrolled {
 .btn-primary {
   background: linear-gradient(45deg, var(--accent-1), var(--accent-2));
   color: #fff;
-  box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 255, 135, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(79, 172, 254, 0.5);
+  box-shadow: 0 8px 25px rgba(0, 255, 135, 0.5);
 }
 
 .btn-outline {
@@ -322,7 +322,7 @@ header.scrolled {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: rgba(79, 172, 254, 0.1);
+  background: rgba(0, 255, 135, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
